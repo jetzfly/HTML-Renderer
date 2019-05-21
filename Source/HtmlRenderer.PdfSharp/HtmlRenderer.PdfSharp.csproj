@@ -32,10 +32,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PdfSharp">
+    <!-- <Reference Include="PdfSharp, Version=1.51.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\PDFsharp\src\PdfSharp\bin\Release\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.51.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\PDFsharp\src\PdfSharp.Charting\bin\Release\PdfSharp.Charting.dll</HintPath>
+    </Reference> -->
+    <Reference Include="PdfSharp, Version=1.51.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\PDFsharp\src\PdfSharp.Charting\bin\Release\PdfSharp.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp.Charting">
+    <Reference Include="PdfSharp.Charting, Version=1.51.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\PDFsharp\src\PdfSharp.Charting\bin\Release\PdfSharp.Charting.dll</HintPath>
     </Reference>
     <Reference Include="System" />

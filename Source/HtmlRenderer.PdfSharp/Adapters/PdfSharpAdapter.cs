@@ -15,6 +15,7 @@ using PdfSharp.Pdf;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
+using System.Text;
 using TheArtOfDev.HtmlRenderer.Adapters;
 using TheArtOfDev.HtmlRenderer.Adapters.Entities;
 using TheArtOfDev.HtmlRenderer.PdfSharp.Utilities;
@@ -43,6 +44,8 @@ namespace TheArtOfDev.HtmlRenderer.PdfSharp.Adapters
         {
             AddFontFamilyMapping("monospace", "Courier New");
             AddFontFamilyMapping("Helvetica", "Arial");
+            AddFontFamilyMapping("Noto Sans CJK SC Regular", "黑体"); //Works when no-unicode program is English
+
 
             var families = new InstalledFontCollection();
 
